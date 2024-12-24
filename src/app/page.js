@@ -6,16 +6,16 @@ export default function Home() {
       <h1 className=" font-bold text-5xl ">Visionary</h1>
       
       <Link href={"/dashboard"}>
-      <button className="bg-blue-500 p-2 px-4 rounded text-white " >Dashboard</button>
+      <button className="bg-gray-700 p-2 px-4 rounded text-white " >Dashboard</button>
       </Link>
       <Link href={"/blogs"}>
-      <button className="bg-blue-500 p-2 px-4 rounded text-white " >Blogs</button>
+      <button className="bg-gray-700 p-2 px-4 rounded text-white " >Blogs</button>
       </Link>
       <Link href={"/contactus"}>
-      <button className="bg-blue-500 p-2 px-4 rounded text-white " >Contact Us</button>
+      <button className="bg-gray-700 p-2 px-4 rounded text-white " >Contact Us</button>
       </Link>
       <Link href={"/aboutus"}>
-      <button className="bg-blue-500 p-2 px-4 rounded text-white " >About Us</button>
+      <button className="bg-gray-700 p-2 px-4 rounded text-white " >About Us</button>
       </Link>
 
     </div>

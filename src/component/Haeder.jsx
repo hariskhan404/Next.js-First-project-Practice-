@@ -7,21 +7,21 @@ export function Header() {
     const pathname = usePathname();
 
     return(
-        <nav className="bg-purple-100 flex justify-center items-center py-2 " >
-           <div> 
-            <Link className={`link ${pathname === "/" ? "active" : ""}`} href="/" >
+        <nav className="bg-gray-700 h-20 flex justify-center items-center py-2 " >
+           <div className="mx-auto w-full "> 
+            <Link className={`link px-3 ${pathname === "/" ? "active underline " : ""}`} href="/" >
             Home</Link>
 
-            <Link className={`link ${pathname === "/blogs" ? "active" : ""}`} href="/blogs" >
+            <Link className={`link px-3 ${pathname === "/blogs" ? "active underline " : ""}`} href="/blogs" >
             Blogs</Link>
 
-            <Link className={`link ${pathname === "/dashboard" ? "active" : ""}`} href="/dashboard" >
+            <Link className={`link px-3 ${pathname === "/dashboard" ? "active underline " : ""}`} href="/dashboard" >
             Dashboard</Link>
 
-            <Link className={`link ${pathname === "/contactus" ? "active" : ""}`} href="/contactUs" >
+            <Link className={`link px-3 ${pathname === "/contactus" ? "active underline " : ""}`} href="/contactus" >
             Contact Us</Link>
 
-            <Link className={`link ${pathname === "/about" ? "active" : ""}`} href="/about" >
+            <Link className={`link px-3 ${pathname === "/aboutus" ? "active underline " : ""}`} href="/aboutus" >
             About</Link>
 
            </div>

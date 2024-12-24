@@ -8,10 +8,10 @@ export default function Dashboard(){
 
              <div className=" flex gap-4 " >
              <Link href={"/dashboard/settings"}>
-      <button className="bg-blue-500 p-2 px-4 rounded text-white " >Settings</button>
+      <button className="bg-gray-700 p-2 px-4 rounded text-white " >Settings</button>
       </Link>
       <Link href={"/dashboard/profile"}>
-      <button className="bg-blue-500 p-2 px-4 rounded text-white " >Profile</button>
+      <button className="bg-gray-700 p-2 px-4 rounded text-white " >Profile</button>
       </Link>
              </div> 
         </div>
